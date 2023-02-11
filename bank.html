@@ -16,7 +16,7 @@
             <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
                 <div class="bg-indigo-400 p-8 rounded-xl">
                     <h4 class="text-2xl">Deposite </h4>
-                    <h2 class="text-5xl">$00</h2>
+                    <h2 class="text-5xl" id="desposite-Total">$00</h2>
                 </div>
                 <div class="bg-yellow-300 p-8 rounded-xl">
                     <h4 class="text-2xl">Withdraw </h4>
@@ -34,19 +34,20 @@
             <div class="grid grid-cols-2 mx-auto w-9/12 gap-4 text-dark">
                 <div class="bg-fuchsia-400 p-8 rounded-xl">
                     <h4 class="text-2xl mb-4">Please Deposite</h4>
-                    <input class="w-9/12 block mb-2 px-3 " type="email" name="" id="depositeAmount" placeholder="Enter Your Deposite Amount $">
+                    <input class="w-9/12 block mb-2 px-3 " type="text" name="" id="deposite-filed" placeholder="Enter Your Deposite Amount $">
       
-      <button id="btn-submit" class="bg-amber-400 px-8 py-2 text-white font-medium rounded-lg mt-2 hover:bg-sky-700">Deposite</button>
+      <button id="addDeposite" class="bg-amber-400 px-8 py-2 text-white font-medium rounded-lg mt-2 hover:bg-sky-700">Deposite</button>
                 </div>
                 <div class="bg-rose-400 p-8 rounded-xl">
                     <h4 class="text-2xl mb-4 ">Please Withdraw</h4>
-                    <input class="w-9/12 block mb-2 px-3 " type="email" name="" id="withdrawAmount" placeholder="Enter Your Withdraw Amount $">
+                    <input class="w-9/12 block mb-2 px-3 " type="text" name="" id="withdrawAmount" placeholder="Enter Your Withdraw Amount $">
       
-                    <button id="btn-submit" class="bg-amber-400 px-8 py-2 text-white font-medium rounded-lg mt-2 hover:bg-sky-700">Withdraw</button>
+                    <button id="btn-withdraw" class="bg-amber-400 px-8 py-2 text-white font-medium rounded-lg mt-2 hover:bg-sky-700">Withdraw</button>
                 </div>
             
             </div>
         </section>
     </main>
+    <script src="js/deposite.js"></script>
 </body>
 </html>
