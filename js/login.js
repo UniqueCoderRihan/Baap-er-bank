@@ -10,7 +10,7 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     
     // DANGER: DONNOT USE THIS METHOD .
     // step: 4: verify email and Password.
-    if(email ==='raihan@gmail.com' && passWord ==='1234'){
+    if(email ==='sosur@gmail.com' && passWord ==='1234'){
         window.location.href = 'bank.html'
         
     }

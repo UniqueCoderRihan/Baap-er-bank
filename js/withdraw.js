@@ -11,7 +11,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function(){
     
     
     // vaildtaion
-    if(newWithdrawAmount>withdrawPreviousTotal){
+    if(newWithdrawAmount<withdrawPreviousTotal){
         alert('sosor er Bank e Mal Nai, Bow er Pitha Tarpor Balance Load Hobe.')
         return  witdrawField.value = '';
     }
