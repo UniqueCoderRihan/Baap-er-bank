@@ -15,6 +15,6 @@ document.getElementById('btn-submit').addEventListener('click', function(){
         
     }
     else{
-        alert('Na Na Tomk to Dukte dia jabe nah! tomi Id Mone Rakte paro Nai.')
+        alert('Amr Meye K Bolo jate Tomk EKta New Password Er Bebosta Kore deh.')
     }
 })
